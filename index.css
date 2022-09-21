@@ -76,6 +76,10 @@ html {
   color: var(--navy);
 }
 
+.text-green {
+  color: var(--light-green);
+}
+
 /*Profile Pic hover*/
 .img-profile {
     opacity: 0.6;
@@ -144,8 +148,6 @@ html {
 }
 
 
-
-
 /*Skills Section*/
 .tools-h2 {
   color: var(--slate);
@@ -155,8 +157,14 @@ html {
 
 .skills-p {
   color: var(--lightest-slate);
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: 600;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.box-quote {
+  margin-top: 150px;
+  box-shadow: 10px 10px rgba(2,12,27,0.7);
 }
 
 
@@ -192,22 +200,6 @@ html {
 
 .text-sayhello {
   color: var(--lightest-slate);
-
-}
-
-.map-container-2{
-  overflow: hidden;
-  padding-bottom: 50%;
-  position: relative;
-  height: 0;
-}
-
-.map-container-2 iframe {
-  left: 50;
-  top: 50;
-  height: 100%;
-  width: 100%;
-  position: absolute;
 }
 
 
@@ -260,10 +252,10 @@ html {
   margin-left: 40px;
 }
 
-.text-sayhello {
+/*.text-sayhello {
  padding-bottom: 40px;
  text-align: center; 
-}
+}*/
 
 
 
