@@ -38,7 +38,6 @@ html {
 
 
 /*Custom background and text color*/
-
 .bg-navy {
   background: var(--navy);
 }
@@ -55,24 +54,15 @@ html {
   background: none;
 }
 
-.carousel-item {
-  color: var(--lightest-slate);
-}
-
-.welcome-note {
+.text-light-green {
   color: var(--light-green);
 }
 
-.heading-name {
-  font-weight: 600;
-  font-size: 50px;
-}
-
-.heading-p {
+.lightest-slate {
   color: var(--lightest-slate);
 }
 
-.text-color {
+.text-navy {
   color: var(--navy);
 }
 
@@ -88,6 +78,15 @@ html {
 
 .img-profile:hover {
     opacity: 1;
+}
+
+.carousel-item {
+  color: var(--lightest-slate);
+}
+
+.heading-name {
+  font-weight: 600;
+  font-size: 50px;
 }
 
 
@@ -175,9 +174,6 @@ html {
   font-size: 35px;
 }
 
-.card {
-  width: 18rem;
-}
 
 .card-title {
   background: var(--light-slate);
@@ -190,6 +186,10 @@ html {
 
 .card-img-top {
   box-shadow: 10px 10px 10px var(--light-green);
+}
+
+.card-body:hover {
+  background-color: var(--light-slate);
 }
 
 
@@ -246,23 +246,18 @@ html {
   margin-top: 20px;
   margin-bottom: 10px;
   margin-left: 140px;
+  color: var(--lightest-slate);
 }
-
-.map-container {
-  margin-left: 40px;
-}
-
-/*.text-sayhello {
- padding-bottom: 40px;
- text-align: center; 
-}*/
-
 
 
 /* For Tablets */
 @media only screen and (min-width: 768px) {
  .say-hello {
-    padding: 20px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-left: 330px;
+
   }
 }
 
