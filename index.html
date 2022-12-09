@@ -2,324 +2,301 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<!-- Mobile Responsive Meta Tag -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Bootstrap Link -->
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
-     <!-- Icon Link -->
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <!-- Icon Link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-     <!-- Favicon -->
-     <link rel="icon" href="./img/favicon.png">
+    <!-- Favicon -->
+    <link rel="icon" href="./img/favicon.png">
 
-     <!-- Custon CSS Link -->
-     <link rel="stylesheet" type="text/css" href="index.css">
-	<title>My Profile</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Custon CSS Link -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<title>My Profile | Carmina Gordula</title>
 </head>
 <body>
+	<div class="container-fluid __myapp">
 
-<!-- Start Navbar -->
-<nav class="navbar navbar-expand-lg bg-navbar navbar-light">
-	<div class="container-fluid">
-		<a href="#about" class="nav-brand">
-			<img src="./img/cg-logo.png">
-		</a>
-
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarmenu"><span class="navbar-toggler-icon"></span>
-		</button>
-
-		<div class="collapse navbar-collapse" id="navbarmenu">
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item mr-5 active">
-					<a href="#about" class="nav-link ">About Me</a>
-				</li>
-				<li class="nav-item mr-5">
-					<a href="#skills" class="nav-link">Skills</a>
-				</li>
-				<li class="nav-item mr-5">
-					<a href="#project" class="nav-link">Project</a>
-				</li>
-				<li class="nav-item mr-5">
-					<a href="#contact" class="nav-link">Reach Me!</a>
-				</li>
-			</ul>
-		</div>
-	</div>
-</nav>
-<!-- End Navbar -->
-
-<!-- Start Slide -->
-<section>
-	<div class="container-fluid bg-navy text-light p-5 text-center text-sm-start">
-		<div id="carouselIndicators" class="carousel slide" data-ride="carousel">
-			<div class="carousel-inner ">
-				<div class="carousel-item active">
-					<h1>I'm a Beginner</h1>
-				</div>
-				<div class="carousel-item">
-					<h1>I'm a Career Shifter</h1>
-				</div>
-				<div class="carousel-item">
-					<h1>Future Software Developer</h1>
-				</div>
+	<!-- Navbar Section -->
+		<!-- <section id="user-info">
+			<div class="nav-bar">
+				<nav class="navbar navbar-expand-lg">
+					<a href="#" class="navbar-brand"><img src="img/cg-logo.png" alt="brand"></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<i class="fa fa-bars"></i>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="#top">HOME</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#about">ABOUT</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#resume">RESUME</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#services">SERVICES</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#contact">CONTACT</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
 			</div>
-			<a class="carousel-control-prev" type="button" data-target="#carouselIndicators" data-slide="prev">
-				<span class="carousel-control-prev-icon mr-auto" aria-hidden="true"></span>
-				<span class="sr-only">Previous</span>
-			</a>
-			<a class="carousel-control-next" type="button" data-target="#carouselIndicators" data-slide="next">
-				<span class="carousel-control-next-icon ml-auto" aria-hidden="true"></span>
-				<span class="sr-only">Next</span>
-			</a>
-		</div>
-
-	</div>
-</section>
-<!-- End Slide -->
+		</section> -->
 
 
-<!-- Start About Section -->
-<section>
-	<div class="container-fluid bg-navy text-light p-5 text-center text-sm-start min-vh-100" id="about">
-		<div class="d-sm-flex align-items-center justify-content-center">
-			<div class="col-xl-6 mr-lg-5">
-				<h5 class="text-light-green pb-4">Hi, welcome to my profile!</h5>
-				<h1 class="heading-name">I'm <span class="text-warning">Carmina Gordula</span></h1>
-				<p class="lightest-slate lead my-4">I'm a beginner and this is my first capstone of doing my own portfolio.
-				</p>
-				<a href="https://gitlab.com/batch-211-carmina/capstone-1-gordula.git" class="btn btn-outline-light btn-md rounded-pill mb-3" target="_blank">Check it out!</a>
-			</div>
-			<img src="./img/prof-pic.png" class="img-profile img-fluid d-none d-sm-block rounded-circle p-2 mb-2" width="250px">
-		</div>
-
-		<div class="container-content lightest-slate p-5 mt-5" id="about">
-			<h3 class="text-center">ABOUT ME</h3>
-			<p class="text-center text-light-green"><em>I love coding</em></p>
-			<p class="text-justify">Hi, my name is Carmina. I studied BS in Computer Engineering. I have more than eight years of working experience in different fields. I worked as a system administrator, data controller cum receptionist, front desk, and hotel manager. I have skills in photo editing and some graphic designs and also I took a Bootcamp course in Amazon Web Services and I am now a certified AWS Cloud Practitioner. With that skills and experiences, I am seeking other opportunities that will challenge me every day. So, I decided to shift to a career in web development and now I begin my journey in coding.</p>
-		</div>	
-	</section>
-<!-- End Showcase -->
-
-
-<!-- Start Skills Section -->
-<section>
-	<div class="container-fluid bg-navbar text-light p-5 text-sm-start min-vh-100" id="skills">
-		<h1 class="heading-name">Tools and <span class="text-warning">Skills </span>that I know</h1>
-		<div class="d-sm-flex row align-items-center justify-content-around">
-			<div class="d-sm-flex row align-items-center justify-content-around d-none d-sm-block">
-				<img src="./img/logo-ps.png" width="75px" class="div-animate1 pr-3">
-				<img src="./img/logo-figma.png" width="75px" class="div-animate2">
-				<img src="./img/logo-html5.png" width="100px" class="div-animate3">
-				<img src="./img/logo-css3.png" width="100px" class="div-animate4">	
-				<img src="./img/logo-bootstrap.png" width="100px" class="div-animate5">
-			</div>
-
-			<div class="skills-section text-left col-md-6 col-sm-12">
-				
-				<p class="skills-p lead my-4 text-center">My expertise
-				</p>
-
-				<label class="text-navy">Photoshop</label>
-				<div class="progress">
-					<div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Advanced
-					</div>
-				</div>
-
-				<label class="text-navy pt-2">Figma</label>
-				<div class="progress">
-					<div class="progress-bar w-50" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Intermediate
-					</div>
-				</div>
-
-				<label class="text-navy pt-2">HTML</label>
-				<div class="progress">
-					<div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Advanced
-					</div>
-				</div>
-
-				<label class="text-navy pt-2">CSS</label>
-				<div class="progress">
-					<div class="progress-bar w-50" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Intermediate
-					</div>
-				</div>
-
-				<label class="text-navy pt-2">Bootstrap</label>
-				<div class="progress">
-					<div class="progress-bar w-25" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Beginner
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="container bg-navy text-center w-50 box-quote">
-			<p class="pt-3 mt-5">"If you think <em>Math</em> is hard, try <strong class="text-warning">Web Design</strong>"</p>
-			<p class="text-right"><em>Trish Parr</em></p>
-		</div>
-	</div>
-</section>
-
-<!-- End Skills Section -->
-
-
-<!-- Start Project Section -->
-<section>
-	<div class="container-fluid bg-navy text-light text-center p-5 min-vh-100" id="project">
-		<div class="d-lg-flex justify-content-center p-md-5">
-			<div>
-				<h1 class="heading-name">My<span class="text-warning">Projects</span></h1>
-				<div class="d-lg-flex justify-content-center p-md-5">
-
-					<!-- Capstone Card Start -->
-					<div class="card bg-dark col-xl-3 mb-5 mb-xl-0 col-lg-4 mb-5 mb-lg-0">
-						<div class="card-body">
-							<img src="./img/proj-1.PNG" class="card-img-top" alt="...">
-							<h5 class="card-title mt-3 text-navy">Capstone-1</h5>
-							<h6 class="card-subtitle text-muted mb-2">Programming Basics</h6>
-							<p class="card-text">
-								This is our first capstone in our Bootcamp. To make a responsive web profile using HTML, CSS, and Bootstrap.
-							</p>
-							<a href="https://cgordula.github.io/gordula-capstone-1/" class="card-link" target="_blank">Link To Project</a>
-						</div>
-					</div>
-					<!-- Capstone1 Card End -->
-
-					<!-- Javascript Card Start -->
-					<div class="card bg-dark col-xl-3 mb-5 mb-xl-0 mr-xl-5 ml-xl-5 col-lg-4 mb-5 mb-lg-0 mr-lg-5 ml-lg-5">
-						<div class="card-body">
-							<img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" class="card-img-top" alt="Javascript-Logo">
-							<h5 class="card-title mt-3 text-navy">Javascript</h5>
-							<h6 class="card-subtitle text-muted mb-2">Frontend</h6>
-							<p class="card-text">
-								This will be the second capstone in our Bootcamp.
-							</p>
-							<a href="#" class="card-link text-muted">Link To Project</a>
-						</div>
-					</div>
-					<!-- Javascript Card End -->
-
-					<!-- Node JS Server Card Start -->
-					<div class="card bg-dark col-xl-3 mb-5 mb-xl-0 col-lg-4 mb-5 mb-lg-0">
-						<div class="card-body">
-							<img src="./img/nodejs.PNG" class="card-img-top" alt="...">
-							<h5 class="card-title mt-3 text-navy">Node JS Server</h5>
-							<h6 class="card-subtitle text-muted mb-2">Backend Basics</h6>
-							<p class="card-text">
-								This will be the last capstone that we are going to do in our Bootcamp.
-							</p>
-							<a href="#" class="card-link text-muted">Link To Project</a>
-						</div>
-						<!-- Node JS Server Card End -->
-					</div>
-				</div>	
-			</section>
-<!-- End Project Section-->
-
-
-<!-- Start Reach Me Section -->
-<section>
-	<div class="container-fluid bg-light-navy text-light p-5 min-vh-100" id="contact">
-		<div class="container-fluid">
-			<div>
-				<div class="row d-flex align-items-center">
-					<div class="col-sm-5 text-contact-h2">
-						<!-- Start Google Map -->
-						<div id="map-container-google-2" class="z-depth-1-half map-container ">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3864.140771739782!2d121.04648661466234!3d14.419047389918298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d03990b73463%3A0xc9550dc72781f84a!2sMontillano%20St%2C%20Alabang%2C%20Muntinlupa%2C%20Metro%20Manila%2C%20Philippines!5e0!3m2!1sen!2sth!4v1663754803989!5m2!1sen!2sth" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-						</div>
-						<!-- End Google Map -->
-					</div>
-
-					<div class="col-sm-7">
-						<a href="https://mail.google.com/mail/u/0/?ogbl#inbox" class="say-hello text-sm-center btn btn-outline-light" target="_blank">Say Hello</a>
-
-						<p class="lightest-slate text-center">Just reach me and I'll get back to you within 24 hours.</p>
-
-					</div>
-				</div>
-			</div>
-
-			<div>
-				<div class="row d-flex align-items-center">
-					<div class="col-sm-5 text-contact-h2">
-						<p><span class="bi bi-geo-alt"></span> Muntinlupa, Philippines</p>
-						<p><span class="bi bi-phone"></span> +63 9751292630</p>
-						<p><span class="bi bi-envelope"></span> carminagordula@gmail.com</p>
-
-						<div>
-							<p class="icons-linked">
-								<a href="https://www.facebook.com/cgordula" target="_blank"><span class="bi bi-facebook"></span></a>
-
-								<a href="https://www.linkedin.com/in/carmina-gordula-14a92773/" target="_blank"><span class="bi bi-linkedin"></span></a>
-
-								<a href="https://web.telegram.org/z/" target="_blank"><span class="bi bi-telegram"></span></a>
-							</p> 
+<!------------------------------- Side Bar Section ------------------------->
+		<div class="row">
+			<div class="col-lg-3 d-none d-lg-block">
+				<nav class="__sidebar">
+					<div class="text-center __profile-header">
+						<img src="img/profpic.png" class="rounded-circle mt-4">
+						<div class="__header-details">
+							<h5 class="mt-3">Carmina Gordula</h5>
+							<p>Front-end Developer</p>
 						</div>
 					</div>
 
-					<div class="col-sm-7">
-						<h2 class="text-contact-h2 text-center">CONTACT</h2>
-						<div class="row d-flex align-items-center">
-							<div class="col-sm-6 form-group">
-								<input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+					<div class="__scrollbox">
+						<div class="__scrollbox-content">
+							<div class="mb-4 __mydetails">
+								<ul>
+									<li>
+										<h6>Residence:</h6><span>Philippines</span>
+									</li>
+									<li>
+										<h6>City: </h6><span>Muntinlupa</span>
+									</li>
+								</ul>
 							</div>
-							<div class="col-sm-6 form-group">
-								<input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-							</div>
-						</div>
-						<textarea class="form-control" id="comments" name="comments" placeholder="Message" rows="5"></textarea><br>
-						<div class="row">
-							<div class="col-sm-12 form-group">
-								<button type="submit" class="btn btn-outline-light" data-toggle="modal" data-target="#exampleModal">
-									Send Email
-								</button>
 
-								<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-									<div class="modal-dialog" role="document">
-										<div class="modal-content">
-											<div class="modal-header">
-												<h5 class="modal-title text-navy" id="exampleModalLabel">Thank you for reaching out!</h5>
-												<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-													<span aria-hidden="true">&times;</span>
-												</button>
-											</div>
-											<div class="modal-body text-navy">
-												Message Successfully Sent.
-											</div>
-											<div class="modal-footer">
-												<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-											</div>
-										</div>
-									</div>
+							<div class="text-center __line-bar"></div>
+
+							<!-- Skills Bar -->
+							<div class="mt-4 __myskills">
+								<div class="__myskill-text">
+									<p>HTML</p> <span>85%</span>
 								</div>
-
+								<div class="progress">
+								  <div class="progress-bar1" role="progressbar"></div>
+								</div>
+								<div class="mt-3 __myskill-text">
+									<p>CSS</p> <span>75%</span>
+								</div>
+								<div class="progress">
+								  <div class="progress-bar2" role="progressbar"></div>
+								</div>	
+								<div class="mt-3 __myskill-text">
+									<p>JAVASCRIPT</p> <span>60%</span>
+								</div>
+								<div class="progress">
+								  <div class="progress-bar3" role="progressbar"></div>
+								</div>		
+								<div class="mt-3 __myskill-text">
+									<p>AMAZON WEB SERVICES</p> <span>60%</span>
+								</div>
+								<div class="progress">
+								  <div class="progress-bar4" role="progressbar"></div>
+								</div>
+								<div class="mt-3 __myskill-text">
+									<p>FIGMA</p> <span>50%</span>
+								</div>
+								<div class="progress">
+								  <div class="progress-bar5" role="progressbar"></div>
+								</div>
+								<div class="mt-3 __myskill-text">
+									<p>PHOTOSHOP</p> <span>80%</span>
+								</div>
+								<div class="progress mb-5">
+								  <div class="progress-bar6" role="progressbar"></div>
+								</div>			
 							</div>
 
+							<div class="text-center __line-bar"></div>
+
+							<!-- Other Skills -->
+							<div class="mt-3 __myother-skills">
+								<h6>OTHER SKILLS</h6>
+								<ul>
+									<li>
+										<i class="bi bi-check2-square"><span> Bootstrap</span></i>
+									</li>
+									<li>
+										<i class="bi bi-check2-square"><span> Responsive Web Design</span></i>
+									</li>
+									<li>
+										<i class="bi bi-check2-square"><span> Git</span></i>
+									</li>
+									<li>
+										<i class="bi bi-check2-square"><span> Github</span></i>
+									</li>
+									<li>
+										<i class="bi bi-check2-square"><span> Node.js</span></i>
+									</li>
+									<li>
+										<i class="bi bi-check2-square"><span> Express.js</span></i>
+									</li>
+									<li>
+										<i class="bi bi-check2-square"><span> MongoDB</span></i>
+									</li>
+									<li>
+										<i class="bi bi-check2-square"><span> ReactJS</span></i>
+									</li>
+								</ul>
+							</div>
+
+							<div class="text-center __line-bar"></div>
+
+							<div class="mt-4 pb-4 __cv-link">
+								<a href="./resume/myresume-2022.pdf" target="_blank">DOWNLOAD CV <i class="bi bi-download"></i></a>
+							</div>
 
 						</div>
 					</div>
-				</div>
+
+					<footer class="__socials-icon">
+						<ul>
+							<li>
+								<a href="https://www.linkedin.com/in/carmina-gordula-14a92773/" target="_blank"><i class="fa fa-linkedin"></i></a>
+							</li>
+							<li>
+								<a href="https://github.com/cgordula" target="_blank"><i class="fa fa-github"></i></a>
+							</li>
+							<li>
+								<a href="https://mail.google.com/mail/u/0/?ogbl#inbox" target="_blank"><i class="fa fa-envelope"></i></a>
+							</li>
+						</ul>
+					</footer>
+				</nav>
 			</div>
 
-			<div class="d-flex justify-content-end fixed-bottom p-3">
-				<a href="#navbarmenu"><i class="bi bi-arrow-up-circle scroll-up"></i></a>
+			<div class="container-fluid col-lg-9 __content">
+				<!-- <div class="__banner"> -->
+					<div class="__banner-img">
+						<img src="img/bg-banner-laptop.jpg" alt="">
+						<div class="__banner-title">
+							<h1>Discover my <span>coding</span> ability <br> and amazing design.</h1>
+						</div>
+						<div class="__code-script">
+							<!-- <div class="__static-text"><<span>code</span>><<span>/code</span>></div> -->
+							<div class="__dynamic-text">
+								<!-- <span>I build website.</span>
+								<span>I build design mockups.</span> -->
+							</div>
+						</div>
+
+						<a href="#" class="btn"><button type="button" class="__explore-btn">EXPLORE NOW</button></a>
+					</div>
+				<!-- </div> -->
+
+				<!-- My Project Section -->
+				<div class="__myproject-title">
+					<h4>My Projects</h4>
+				</div>
+				<div class="__myproject-content pt-3 pb-3">
+					<div class="row __myproject-content-row">
+						<div class="col-md-4 col-sm-12 mb-3">
+							<div class="card __flip-card">
+							  <div class="__flip-card-inner">
+							    <div class="card-body __flip-card-front">
+							      	<h5 class="card-title text-white text-center">Frontend</h5>
+									<p class="card-text">Responsive web profile using HTML, CSS, Bootstrap.</p>
+							    </div>
+							    <div class="__flip-card-back">
+							      <a href="https://cgordula.github.io/gordula-capstone-1/" target="_blank" class="card-link">CLICK HERE!</a>
+							    </div>
+							  </div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-12 mb-3">
+							<div class="card __flip-card">
+							  <div class="__flip-card-inner">
+							    <div class="card-body __flip-card-front">
+							      	<h5 class="card-title text-white text-center">Backend</h5>
+									<p class="card-text">An ordering system using JavaScript, Node.js, Express.js and MongoDb.</p>
+							    </div>
+							    <div class="__flip-card-back">
+							      <a href="https://ecommerce-capstone-2-gordula.onrender.com" target="_blank" class="card-link">CLICK HERE!</a>
+							    </div>
+							  </div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-12 mb-3">
+							<div class="card __flip-card">
+							  <div class="__flip-card-inner">
+							    <div class="card-body __flip-card-front">
+							      	<h5 class="card-title text-white text-center">Fullstack (Frontend & Backend)</h5>
+									<p class="card-text">A cake shop online ordering system using MERN (MongoDb, Express.js, React.js and Node.js) that you can purchase online, add to cart and checkout order.</p>
+							    </div>
+							    <div class="__flip-card-back">
+							      <a href="https://carmaj-swittut-cakeshop.vercel.app/" target="_blank" class="card-link">CLICK HERE!</a>
+							    </div>
+							  </div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- My Services Section -->
+				<div class="__myservices-title mb-3">
+					<h4>My Services</h4>
+					<p>I accept part time jobs and these are what I offered.</p>
+				</div>
+				<div class="__services" id="services">
+					<div class="row text-center">
+						<div class="col-md-4 col-sm-12 mb-3">
+							<div class="card __services-box">
+							    <div class="card-body">
+							     	<i class="fa fa-pencil"></i><span class="text-white"> Graphics</span>
+									<p>Invitation card, Banner, Leaflet, Letterhead, etc.</p>
+							    </div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-12 mb-3">
+							<div class="card __services-box">
+							    <div class="card-body">
+							     	<i class="fa fa-laptop"></i><span class="text-white"> Development</span>
+									<p>Website, web app, UI Design, mockup design, etc.</p>
+							    </div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-12 mb-3">
+							<div class="card __services-box">
+							    <div class="card-body">
+							     	<i class="fa fa-line-chart"></i><span class="text-white"> Marketing</span>
+									<p>Media buying - facebook ads.</p>
+							    </div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<footer>
+					
+				</footer>
 			</div>
 		</div>
+	</div>
+	
 
-	</section>
+	<!-- For Smooth Scroll -->
+	<!-- <script src="smooth-scroll.js"></script>
+	<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+	</script> -->
 
-	<!-- End Reach Me Section -->
-
-
-<!-- Start Footer Section -->
-<footer class="footer container-fluid bg-navy text-center p-3">
-	<span>Crafted by Carmina Gordula</span>
-	<span>|</span>
-	<span>&copy; 2022. All Rights Reserved.</span>
-</footer>
-<!-- End Footer Section -->
-
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
 
 	<!-- Bootstrap Script -->
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
