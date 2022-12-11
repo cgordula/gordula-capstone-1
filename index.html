@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -24,164 +25,174 @@
 <body>
 	<div class="container-fluid __myapp">
 
-	<!-- Navbar Section -->
-		<!-- <section id="user-info">
-			<div class="nav-bar">
-				<nav class="navbar navbar-expand-lg">
-					<a href="#" class="navbar-brand"><img src="img/cg-logo.png" alt="brand"></a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-						<i class="fa fa-bars"></i>
-					</button>
-					<div class="collapse navbar-collapse" id="navbarNav">
-						<ul class="navbar-nav ml-auto">
-							<li class="nav-item">
-								<a class="nav-link" href="#top">HOME</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#about">ABOUT</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#resume">RESUME</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#services">SERVICES</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#contact">CONTACT</a>
-							</li>
-						</ul>
-					</div>
-				</nav>
+		<!----------------------------- Navbar Section ------------------------->
+		<nav class="navbar navbar-expand-lg fixed-top">
+			<a class="navbar-brand" href="#top"><img src="./img/cg-logo.png" alt="logo"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"> <i class="fa fa-bars"></i></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link mr-3" href="#top">HOME <span class="sr-only"></span></a>
+					</li>
+					<li class="nav-item mr-3">
+						<a class="nav-link" id="myBtn" href="#about">ABOUT
+
+						<!-- The Modal -->
+						<div id="myModal" class="modal">
+
+						  <!-- Modal content -->
+						  <div class="modal-content">
+						    <!-- <span class="close" id="close">&times;</span> -->
+						    <h3 class="text-center">WHO AM I?</h3>
+							<p class="text-center mb-4 __ilovecoding"><em>I love coding</em></p>
+						    <p class="text-justify">Hi, my name is <span>Carmina</span>. I studied BS in Computer Engineering. I have more than eight years of working experience in different fields. I worked as a system administrator, data controller cum receptionist, front desk, and hotel manager. I have skills in photo editing and some graphic designs and also I took a Bootcamp course in Amazon Web Services and I am now a certified AWS Cloud Practitioner. With that skills and experiences, I am seeking other opportunities that will challenge me every day. So, I decided to shift to a career in web development and now I begin my journey in coding with the help of ZUITT Bootcamp.</p>
+						  </div>
+						</div>							
+						</a>
+					</li>
+
+					<li class="nav-item mr-3">
+						<a class="nav-link" href="#projects">PROJECTS</a>
+					</li>
+					<li class="nav-item mr-3">
+						<a class="nav-link" href="#contact">CONTACT</a>
+					</li>
+				</ul>
 			</div>
-		</section> -->
+		</nav>
 
 
-<!------------------------------- Side Bar Section ------------------------->
+		<!------------------------------- Right Side Bar Section ------------------------->
 		<div class="row">
-			<div class="col-lg-3 d-none d-lg-block">
-				<nav class="__sidebar">
-					<div class="text-center __profile-header">
-						<img src="img/profpic.png" class="rounded-circle mt-4">
-						<div class="__header-details">
-							<h5 class="mt-3">Carmina Gordula</h5>
-							<p>Front-end Developer</p>
+			<div class="col-lg-3 d-none d-lg-block __right-content">
+				
+					<div class="__sidebar">
+						<div class="text-center __profile-header">
+							<img src="img/profpic.png" class="rounded-circle mt-4">
+							<div class="__header-details">
+								<h5 class="mt-3">Carmina Gordula</h5>
+								<p>Front-end Developer</p>
+							</div>
 						</div>
-					</div>
 
-					<div class="__scrollbox">
-						<div class="__scrollbox-content">
-							<div class="mb-4 __mydetails">
-								<ul>
-									<li>
-										<h6>Residence:</h6><span>Philippines</span>
-									</li>
-									<li>
-										<h6>City: </h6><span>Muntinlupa</span>
-									</li>
-								</ul>
+						<div class="__scrollbox">
+							<div class="__scrollbox-content">
+								<div class="mb-4 __mydetails">
+									<ul>
+										<li>
+											<h6>Residence:</h6><span>Philippines</span>
+										</li>
+										<li>
+											<h6>City: </h6><span>Muntinlupa</span>
+										</li>
+									</ul>
+								</div>
+
+								<div class="text-center __line-bar"></div>
+
+								<!-- Skills Bar -->
+								<div class="mt-4 __myskills">
+									<div class="__myskill-text">
+										<p>HTML</p> <span>85%</span>
+									</div>
+									<div class="progress">
+										<div class="progress-bar1" role="progressbar"></div>
+									</div>
+									<div class="mt-3 __myskill-text">
+										<p>CSS</p> <span>75%</span>
+									</div>
+									<div class="progress">
+										<div class="progress-bar2" role="progressbar"></div>
+									</div>	
+									<div class="mt-3 __myskill-text">
+										<p>JAVASCRIPT</p> <span>65%</span>
+									</div>
+									<div class="progress">
+										<div class="progress-bar3" role="progressbar"></div>
+									</div>		
+									<div class="mt-3 __myskill-text">
+										<p>AMAZON WEB SERVICES</p> <span>60%</span>
+									</div>
+									<div class="progress">
+										<div class="progress-bar4" role="progressbar"></div>
+									</div>
+									<div class="mt-3 __myskill-text">
+										<p>FIGMA</p> <span>70%</span>
+									</div>
+									<div class="progress">
+										<div class="progress-bar5" role="progressbar"></div>
+									</div>
+									<div class="mt-3 __myskill-text">
+										<p>PHOTOSHOP</p> <span>80%</span>
+									</div>
+									<div class="progress mb-5">
+										<div class="progress-bar6" role="progressbar"></div>
+									</div>			
+								</div>
+
+								<div class="text-center __line-bar"></div>
+
+								<!-- Other Skills -->
+								<div class="mt-3 __myother-skills">
+									<h6>OTHER SKILLS</h6>
+									<ul>
+										<li>
+											<i class="bi bi-check2-square"><span> Bootstrap</span></i>
+										</li>
+										<li>
+											<i class="bi bi-check2-square"><span> Responsive Web Design</span></i>
+										</li>
+										<li>
+											<i class="bi bi-check2-square"><span> Git</span></i>
+										</li>
+										<li>
+											<i class="bi bi-check2-square"><span> Github</span></i>
+										</li>
+										<li>
+											<i class="bi bi-check2-square"><span> MongoDb</span></i>
+										</li>
+										<li>
+											<i class="bi bi-check2-square"><span> ExpressJs</span></i>
+										</li>
+										<li>
+											<i class="bi bi-check2-square"><span> ReactJs</span></i>
+										</li>
+										<li>
+											<i class="bi bi-check2-square"><span> NodeJs</span></i>
+										</li>
+									</ul>
+								</div>
+
+								<div class="text-center __line-bar"></div>
+
+								<div class="mt-4 pb-4 __cv-link">
+									<a href="./resume/myresume-2022.pdf" target="_blank">DOWNLOAD CV <i class="bi bi-download"></i></a>
+								</div>
+
 							</div>
-
-							<div class="text-center __line-bar"></div>
-
-							<!-- Skills Bar -->
-							<div class="mt-4 __myskills">
-								<div class="__myskill-text">
-									<p>HTML</p> <span>85%</span>
-								</div>
-								<div class="progress">
-								  <div class="progress-bar1" role="progressbar"></div>
-								</div>
-								<div class="mt-3 __myskill-text">
-									<p>CSS</p> <span>75%</span>
-								</div>
-								<div class="progress">
-								  <div class="progress-bar2" role="progressbar"></div>
-								</div>	
-								<div class="mt-3 __myskill-text">
-									<p>JAVASCRIPT</p> <span>60%</span>
-								</div>
-								<div class="progress">
-								  <div class="progress-bar3" role="progressbar"></div>
-								</div>		
-								<div class="mt-3 __myskill-text">
-									<p>AMAZON WEB SERVICES</p> <span>60%</span>
-								</div>
-								<div class="progress">
-								  <div class="progress-bar4" role="progressbar"></div>
-								</div>
-								<div class="mt-3 __myskill-text">
-									<p>FIGMA</p> <span>50%</span>
-								</div>
-								<div class="progress">
-								  <div class="progress-bar5" role="progressbar"></div>
-								</div>
-								<div class="mt-3 __myskill-text">
-									<p>PHOTOSHOP</p> <span>80%</span>
-								</div>
-								<div class="progress mb-5">
-								  <div class="progress-bar6" role="progressbar"></div>
-								</div>			
-							</div>
-
-							<div class="text-center __line-bar"></div>
-
-							<!-- Other Skills -->
-							<div class="mt-3 __myother-skills">
-								<h6>OTHER SKILLS</h6>
-								<ul>
-									<li>
-										<i class="bi bi-check2-square"><span> Bootstrap</span></i>
-									</li>
-									<li>
-										<i class="bi bi-check2-square"><span> Responsive Web Design</span></i>
-									</li>
-									<li>
-										<i class="bi bi-check2-square"><span> Git</span></i>
-									</li>
-									<li>
-										<i class="bi bi-check2-square"><span> Github</span></i>
-									</li>
-									<li>
-										<i class="bi bi-check2-square"><span> Node.js</span></i>
-									</li>
-									<li>
-										<i class="bi bi-check2-square"><span> Express.js</span></i>
-									</li>
-									<li>
-										<i class="bi bi-check2-square"><span> MongoDB</span></i>
-									</li>
-									<li>
-										<i class="bi bi-check2-square"><span> ReactJS</span></i>
-									</li>
-								</ul>
-							</div>
-
-							<div class="text-center __line-bar"></div>
-
-							<div class="mt-4 pb-4 __cv-link">
-								<a href="./resume/myresume-2022.pdf" target="_blank">DOWNLOAD CV <i class="bi bi-download"></i></a>
-							</div>
-
 						</div>
-					</div>
 
-					<footer class="__socials-icon">
-						<ul>
-							<li>
-								<a href="https://www.linkedin.com/in/carmina-gordula-14a92773/" target="_blank"><i class="fa fa-linkedin"></i></a>
-							</li>
-							<li>
-								<a href="https://github.com/cgordula" target="_blank"><i class="fa fa-github"></i></a>
-							</li>
-							<li>
-								<a href="https://mail.google.com/mail/u/0/?ogbl#inbox" target="_blank"><i class="fa fa-envelope"></i></a>
-							</li>
-						</ul>
-					</footer>
-				</nav>
+						<footer class="__socials-icon">
+							<ul>
+								<li>
+									<a href="https://www.linkedin.com/in/carmina-gordula-14a92773/" target="_blank"><i class="fa fa-linkedin"></i></a>
+								</li>
+								<li>
+									<a href="https://github.com/cgordula" target="_blank"><i class="fa fa-github"></i></a>
+								</li>
+								<li>
+									<a href="https://mail.google.com/mail/u/0/?ogbl#inbox" target="_blank"><i class="fa fa-envelope"></i></a>
+								</li>
+							</ul>
+						</footer>
+					</div>
 			</div>
 
-			<div class="container-fluid col-lg-9 __content">
+		<!------------------------------- Content Section ------------------------->
+			<div class="col-lg-9 __content" id="home">
 				<!-- <div class="__banner"> -->
 					<div class="__banner-img">
 						<img src="img/bg-banner-laptop.jpg" alt="">
@@ -189,113 +200,146 @@
 							<h1>Discover my <span>coding</span> ability <br> and amazing design.</h1>
 						</div>
 						<div class="__code-script">
-							<!-- <div class="__static-text"><<span>code</span>><<span>/code</span>></div> -->
-							<div class="__dynamic-text">
-								<!-- <span>I build website.</span>
-								<span>I build design mockups.</span> -->
-							</div>
+							&lt;<p>code</p>&gt; I build &nbsp;<span class="auto-type"></span> &lt;/<p>code</p>&gt;
 						</div>
 
 						<a href="#" class="btn"><button type="button" class="__explore-btn">EXPLORE NOW</button></a>
 					</div>
-				<!-- </div> -->
+					<!-- </div> -->
 
-				<!-- My Project Section -->
-				<div class="__myproject-title">
-					<h4>My Projects</h4>
-				</div>
-				<div class="__myproject-content pt-3 pb-3">
-					<div class="row __myproject-content-row">
-						<div class="col-md-4 col-sm-12 mb-3">
-							<div class="card __flip-card">
-							  <div class="__flip-card-inner">
-							    <div class="card-body __flip-card-front">
-							      	<h5 class="card-title text-white text-center">Frontend</h5>
-									<p class="card-text">Responsive web profile using HTML, CSS, Bootstrap.</p>
-							    </div>
-							    <div class="__flip-card-back">
-							      <a href="https://cgordula.github.io/gordula-capstone-1/" target="_blank" class="card-link">CLICK HERE!</a>
-							    </div>
-							  </div>
+
+					<!-- My Project Section -->
+					<div class="__myproject-title" id="projects">
+						<h4>My Projects</h4>
+					</div>
+					<div class="__myproject-content pt-3 pb-3">
+						<div class="row __myproject-content-row">
+							<div class="col-md-4 mb-3">
+								<div class="card __flip-card">
+									<div class="__flip-card-inner">
+										<div class="__flip-card-front">
+											<h5 class="text-white text-center">Frontend</h5>
+											<p class="card-text">Responsive web profile using HTML, CSS, Bootstrap, and some Javascript.</p>
+										</div>
+										<div class="__flip-card-back">
+											<a href="https://cgordula.github.io/gordula-capstone-1/" target="_blank" class="card-link">CLICK HERE!</a>
+										</div>
+									</div>
+								</div>
 							</div>
-						</div>
-						<div class="col-md-4 col-sm-12 mb-3">
-							<div class="card __flip-card">
-							  <div class="__flip-card-inner">
-							    <div class="card-body __flip-card-front">
-							      	<h5 class="card-title text-white text-center">Backend</h5>
-									<p class="card-text">An ordering system using JavaScript, Node.js, Express.js and MongoDb.</p>
-							    </div>
-							    <div class="__flip-card-back">
-							      <a href="https://ecommerce-capstone-2-gordula.onrender.com" target="_blank" class="card-link">CLICK HERE!</a>
-							    </div>
-							  </div>
+							<div class="col-md-4 mb-3">
+								<div class="card __flip-card">
+									<div class="__flip-card-inner">
+										<div class="__flip-card-front">
+											<h5 class="text-white text-center">Backend</h5>
+											<p class="card-text">An ordering system using JavaScript, Node.js, Express.js and MongoDb.</p>
+										</div>
+										<div class="__flip-card-back">
+											<a href="https://ecommerce-capstone-2-gordula.onrender.com" target="_blank" class="card-link">CLICK HERE!</a>
+										</div>
+									</div>
+								</div>
 							</div>
-						</div>
-						<div class="col-md-4 col-sm-12 mb-3">
-							<div class="card __flip-card">
-							  <div class="__flip-card-inner">
-							    <div class="card-body __flip-card-front">
-							      	<h5 class="card-title text-white text-center">Fullstack (Frontend & Backend)</h5>
-									<p class="card-text">A cake shop online ordering system using MERN (MongoDb, Express.js, React.js and Node.js) that you can purchase online, add to cart and checkout order.</p>
-							    </div>
-							    <div class="__flip-card-back">
-							      <a href="https://carmaj-swittut-cakeshop.vercel.app/" target="_blank" class="card-link">CLICK HERE!</a>
-							    </div>
-							  </div>
+							<div class="col-md-4 mb-3">
+								<div class="card __flip-card">
+									<div class="__flip-card-inner">
+										<div class="__flip-card-front">
+											<h5 class="text-white text-center">Fullstack</h5>
+											<p class="card-text">A cake shop online ordering system using MERN (MongoDb, Express.js, React.js and Node.js) that you can purchase online, add to cart and checkout order.</p>
+										</div>
+
+										<div class="__flip-card-back">
+											<a href="https://ecommerce-capstone-2-gordula.onrender.com" target="_blank" class="card-link">CLICK HERE!</a>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
 
-				<!-- My Services Section -->
-				<div class="__myservices-title mb-3">
-					<h4>My Services</h4>
-					<p>I accept part time jobs and these are what I offered.</p>
-				</div>
-				<div class="__services" id="services">
-					<div class="row text-center">
-						<div class="col-md-4 col-sm-12 mb-3">
-							<div class="card __services-box">
-							    <div class="card-body">
-							     	<i class="fa fa-pencil"></i><span class="text-white"> Graphics</span>
+
+					<!-- My Services Section -->
+					<div class="__myservices-title mb-3" id="services">
+						<h4>My Services</h4>
+						<p>I accept part-time jobs and these are what I offered.</p>
+					</div>
+					<div class="__services">
+						<div class="row text-center">
+							<div class="col-md-4 mb-3">
+								<div class="__services-box">
+									<i class="fa fa-pencil"></i><span class="text-white"> Graphics</span>
 									<p>Invitation card, Banner, Leaflet, Letterhead, etc.</p>
-							    </div>
+								</div>
 							</div>
-						</div>
-						<div class="col-md-4 col-sm-12 mb-3">
-							<div class="card __services-box">
-							    <div class="card-body">
-							     	<i class="fa fa-laptop"></i><span class="text-white"> Development</span>
-									<p>Website, web app, UI Design, mockup design, etc.</p>
-							    </div>
+							<div class="col-md-4 mb-3">
+								<div class="__services-box">
+									
+										<i class="fa fa-laptop"></i><span class="text-white"> Development</span>
+										<p>Website, web app, UI Design, mockup design, etc.</p>
+					
+								</div>
 							</div>
-						</div>
-						<div class="col-md-4 col-sm-12 mb-3">
-							<div class="card __services-box">
-							    <div class="card-body">
-							     	<i class="fa fa-line-chart"></i><span class="text-white"> Marketing</span>
-									<p>Media buying - facebook ads.</p>
-							    </div>
+							<div class="col-md-4 mb-3">
+								<div class="__services-box">
+									
+										<i class="fa fa-line-chart"></i><span class="text-white"> Marketing</span>
+										<p>Media buying - facebook ads.</p>
+									
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
 
-				<footer>
-					
-				</footer>
+		<!------------------------------- Contact Section ------------------------->
+
+					<div class="__contact" id="contact">
+						<h4>Contact Information</h4>
+					</div>
+					<div class="">
+						<div class="row text-center">
+							<div class="col-md-4 mb-3">
+								<div class="__contact-info">
+									<i class="fa fa-phone __contact-icons"><span></span></i>
+									<p>+66 837063201</p>
+								</div>
+							</div>
+							<div class="col-md-4 mb-3">
+								<div class="__contact-info">
+									<i class="fa fa-envelope __contact-icons"></i>
+									<p>carminagordula@gmail.com</p>
+								</div>
+							</div>
+							<div class="col-md-4 mb-3">
+								<div class="__contact-info">
+									<i class="fa fa-map-marker __contact-icons"></i>
+									<p>Muntinlupa, Philippines</p>
+								</div>
+							</div>
+							<button type="button" class="btn btn-primary __contact-btn mt-3"><a href="https://mail.google.com/mail/u/0/?ogbl#inbox" target="_blank"><i class="fa fa-rocket mr-2"></i> Hire Me</a></button>
+						</div>
+					</div>
+
+					<footer class="__footer-content">
+						<p>&#169; 2022 | Created by Carmina Gordula</p>
+					</footer>
+				
 			</div>
 		</div>
-	</div>
-	
+
 
 	<!-- For Smooth Scroll -->
-	<!-- <script src="smooth-scroll.js"></script>
+	<script src="smooth-scroll.js"></script>
 	<script>
 	var scroll = new SmoothScroll('a[href*="#"]');
-	</script> -->
+	</script>
 
+
+	<!-- for auto typing -->
+	
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+	<script src="index.js"></script>
+
+	
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
 
 	<!-- Bootstrap Script -->
